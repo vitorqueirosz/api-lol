@@ -16,7 +16,6 @@ import { FiArrowLeft } from 'react-icons/fi';
 import api from '../../services/api';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import icon from '.././uploads/undefIcon.svg';
 
 
 interface AxiosResponse {

@@ -5,7 +5,7 @@ import { Container, Content } from './styles';
 import logo from '.././uploads/logo.svg';
 import { FiSearch } from 'react-icons/fi';
 import api from '../../services/api';
-import { useHistory, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -23,7 +23,6 @@ const Home: React.FC = () => {
     const [champions, setChampions] = useState<Champions[]>([]);
     const [newChamp, setNewChamp] = useState<string>('');
     const [error , setError] = useState(false);
-    const history = useHistory();
 
     useEffect(() => {
         toast.warn('Digite um campeão sem espaços e com a primeira letra maiúscula, ex: MasterYi');
@@ -64,12 +63,6 @@ const Home: React.FC = () => {
         }
 
     }
-
-    // function handleGoToDetails() {
-
-    //     setNewChamp(newChamp);
-    //     history.push(`details/${newChamp}`);
-    // }
 
   return (
 
