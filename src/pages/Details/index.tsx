@@ -130,12 +130,12 @@ const Details: React.FC = () => {
         <Loading>
 
             <h1 className="jump">Carregando informações do <span>{id}</span></h1>
-                <img src={`http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${id}_0.jpg`} alt="splash"/>
+                <img src={`https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${id}_0.jpg`} alt="splash"/>
         </Loading> 
             : 
     <>
         <h5>
-            <img src={`http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${id}_0.jpg`} alt="splash"/>
+            <img src={`https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${id}_0.jpg`} alt="splash"/>
         </h5>
         <header>
             <span>DETALHES</span>
@@ -151,7 +151,7 @@ const Details: React.FC = () => {
             <AsideContent>
                 <nav>
                     <span>SOBRE</span>
-                    <span>NAME</span>
+                    <span>NOME</span>
                 </nav>
             </AsideContent>
 
@@ -162,7 +162,7 @@ const Details: React.FC = () => {
                         <span>{data.title}</span>
                     </aside>
                     
-                    <img src={`http://ddragon.leagueoflegends.com/cdn/10.13.1/img/champion/${id}.png`} alt="icon"/>
+                    <img src={`https://ddragon.leagueoflegends.com/cdn/10.13.1/img/champion/${id}.png`} alt="icon"/>
                 </div>
 
 
@@ -177,28 +177,28 @@ const Details: React.FC = () => {
     
                     <aside>
                          <div onClick={() => SelectedPassive()}>
-                            <img src={`http://ddragon.leagueoflegends.com/cdn/10.13.1/img/passive/${data.id}_P.png`} alt=""/>
+                            <img src={`https://ddragon.leagueoflegends.com/cdn/10.13.1/img/passive/${data.id}_P.png`} alt=""/>
                                 <span>Passiva</span>
                         </div>
                         <div onClick={() => SelectedSkillQ()}>
-                            <img src={`http://ddragon.leagueoflegends.com/cdn/10.13.1/img/spell/${spell[0].id}.png`} alt=""/>
+                            <img src={`https://ddragon.leagueoflegends.com/cdn/10.13.1/img/spell/${spell[0].id}.png`} alt=""/>
                                 <span>(Q)</span>
                         </div>
 
                         <div onClick={() => SelectedSkillW()}>
-                        <img src={`http://ddragon.leagueoflegends.com/cdn/10.13.1/img/spell/${spell[1].id}.png`} 
+                        <img src={`https://ddragon.leagueoflegends.com/cdn/10.13.1/img/spell/${spell[1].id}.png`} 
                         alt="Skill"
                         />
                                 <span>(W)</span>
                         </div>
 
                         <div onClick={() => SelectedSkillE()}>
-                        <img src={`http://ddragon.leagueoflegends.com/cdn/10.13.1/img/spell/${spell[2].id}.png`} alt=""/>
+                        <img src={`https://ddragon.leagueoflegends.com/cdn/10.13.1/img/spell/${spell[2].id}.png`} alt=""/>
                                 <span>(E)</span>
                         </div>
 
                         <div onClick={() => SelectedSkillR()}>
-                        <img src={`http://ddragon.leagueoflegends.com/cdn/10.13.1/img/spell/${spell[3].id}.png`} alt=""/>
+                        <img src={`https://ddragon.leagueoflegends.com/cdn/10.13.1/img/spell/${spell[3].id}.png`} alt=""/>
                                 <span>(R)</span>
                         </div>
                     </aside>
@@ -211,7 +211,7 @@ const Details: React.FC = () => {
                             <span>{passive.name}</span>
                         <aside>
                         <img 
-                        // src={`http://ddragon.leagueoflegends.com/cdn/10.13.1/img/passive/${data.name}_P.png`} 
+                        // src={`https://ddragon.leagueoflegends.com/cdn/10.13.1/img/passive/${data.name}_P.png`} 
                         alt="skill"
                         />
                         <p>{passive.description}</p>
@@ -222,7 +222,7 @@ const Details: React.FC = () => {
                             <span>{skill.name}</span>
                         <aside>
                         <img 
-                        src={`http://ddragon.leagueoflegends.com/cdn/10.13.1/img/spell/${skill.id}.png`} 
+                        src={`https://ddragon.leagueoflegends.com/cdn/10.13.1/img/spell/${skill.id}.png`} 
                         alt="skill"
                         />
                         <p>{skill.description}</p>
@@ -234,7 +234,7 @@ const Details: React.FC = () => {
             </MainContent>
 
             <RightContent>
-                <img src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${data.id}_0.jpg`} alt="splash"/>
+                <img src={`https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${data.id}_0.jpg`} alt="splash"/>
 
                 <div>
                 {/* <span>{data.tags}</span> */}

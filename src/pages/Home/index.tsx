@@ -14,8 +14,9 @@ interface Champions {
     name: string;
     image: string;
 
-    config: string;
 
+    
+    config: string;
     data: string;
 }
 
@@ -87,7 +88,7 @@ const Home: React.FC = () => {
                             <span>{champion.name}</span>
                             <img 
                             key={champion.id} 
-                            src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champion.id}_0.jpg`} 
+                            src={`https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champion.id}_0.jpg`} 
                             alt=""
                             />
                         </aside>
