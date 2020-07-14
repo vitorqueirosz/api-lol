@@ -98,7 +98,6 @@ const Details: React.FC = () => {
 
         const skills = data.spells[0]
         setSkill(skills)
-        console.log(skills)
         setPassive(skills);
 
     }

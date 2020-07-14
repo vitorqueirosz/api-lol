@@ -13,10 +13,11 @@ export const Container = styled.div`
     }
 
     div {
-        width: 900px;
+        width: 100%;
+        max-width: 690px;
         margin: 30px 0 30px 0;
         display: flex;
-        justify-content:center;
+        justify-content: space-between;
         background: #fff;
         border-radius: 0 8px 8px 0;
         
@@ -31,10 +32,11 @@ export const Container = styled.div`
         }
     }
     form {
-        background: #000;
+        background: #fff;
     }
     input {
-        width: 830px;
+        
+        flex: 1;
         border: 0;
         padding: 16px;
         height: 82px;

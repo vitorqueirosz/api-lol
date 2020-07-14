@@ -72,9 +72,7 @@ const Home: React.FC = () => {
 
     
         <div>
-            <form action="" onSubmit={handleData}>
                 <input  className={error ? 'error' : ''} type="text" placeholder="Pesquise um campeao, ex: LeeSin" onChange={handleInputChange}/>
-            </form>
                 <button className={error ? 'errorButton' : ''} onClick={handleData}><FiSearch size={25}/></button>
         </div>
 
