@@ -31,9 +31,6 @@ export const Container = styled.div`
             border-left: none;
         }
     }
-    form {
-        background: #fff;
-    }
     input {
         
         flex: 1;
