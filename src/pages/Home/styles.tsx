@@ -8,19 +8,18 @@ export const Container = styled.div`
 
     img {
         margin-top: 26px;
-        width: 500px;
+        width: 100%;
         height: 250px;
+        max-width: 600px;
     }
-
     div {
         width: 100%;
-        max-width: 690px;
+        max-width: 600px;
         margin: 30px 0 30px 0;
         display: flex;
         justify-content: space-between;
         background: #fff;
         border-radius: 0 8px 8px 0;
-        
 
         .error {
             border: 2px solid #DF5656;
@@ -32,7 +31,7 @@ export const Container = styled.div`
         }
     }
     input {
-        
+    
         flex: 1;
         border: 0;
         padding: 16px;
