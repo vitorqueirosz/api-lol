@@ -1,6 +1,13 @@
+ <h2 align="center">Api LoL 🎮</h2>
+<br/>
+
+This project is based on a Game called __League of Legends__, thats consumes the public Api from Riot Games: https://developer.riotgames.com/apis
+<br/>
+<br/>
 <p align="center">
 <img src="https://raw.githubusercontent.com/vitorqueirosz/api-lol/02471e46dfbe449a966bafd7c51cf57c236cadcd/src/pages/uploads/lol1.svg" heigth="20%" width="70%">
 </p>
+
 </br>
 
 ## :rocket: Technologies
